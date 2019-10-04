@@ -1,0 +1,47 @@
+/*-- ligne de la todolist --*/
+.todo-item {
+  border-top: solid 3px rgb(156, 230, 240);
+  padding: 0px 0px 0px 10px;
+  min-height: 55px;
+  line-height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+/*-- checkbox--*/
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+/*-- Texte --*/
+.todo-title{
+  flex-grow: 1;
+  padding-left: 11px;
+  margin:5px 0px;
+  display: flex;
+  position:relative;
+}
+
+/*-- ligne cochée --*/
+.todo-complete {
+color: #cacaca;
+  background :rgb(238, 238, 238);
+}
+
+/*-- BOUTON SUPPRESSION gris > rouge--*/
+.btn-supp {
+  background: rgb(238, 238, 238);
+  margin:0px;
+  width : 45px;
+  font-size: 25px;
+  border-radius: 0%;
+  border-left:1px solid #cacaca;
+  position: absolute;
+  right:0px;
+  min-height: 48px;
+  line-height: 48px;
+  color: #9b9b9b;
+}
+
+.btn-supp:hover {
+  background: rgb(221, 54, 54);
+}
